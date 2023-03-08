@@ -7,6 +7,8 @@ liczbaB= 0
 def main():
     kalkulator()
     ankieta()
+
+#zadnaie 1 kalkulator
 def kalkulator():
         res = 0
         liczbaA=input("Podaj pierwsza liczbe: ")
@@ -24,7 +26,7 @@ def kalkulator():
         if(znak=="-"):
             res = int(liczbaA) - int(liczbaB)
             print(res)
-
+#zadanie 2 ankieta
 def ankieta():
     imie=input("podaj swoje imie ")
     wzrost=input("Podaj swoj wzrost ")
